@@ -4,17 +4,16 @@
 ''' 
 	Se libera el siguiente código para ser estudiado, reutilizado y redistribuido con sus modificaciones.
 
-	Junio de 2017 Versión 1 - Prof. Mussis Pablo
+		- Junio de 2017 Versión 0.1 - Prof. Mussis Pablo
 		- Script en Python 2.7 como A. B. M. con base de datos en SQlite3 
 		- sobre el sistema de base Debian 8 en estado de prototipo V1. 
 		- Desarrollado en el laboratorio de la E.E.S.T.N°2 de Fcio Varela 
 		- Con el propósito práctico profesional.
 
-Nota:
-Para su próxima versión se requiere: 
-	- Verificar el sistema operativo base para ejecutar clear en equipos UNIX o cls en M.Windows.
+Nota, para su próxima versión se requiere: 
+	- Verificar el sistema operativo base para ejecutar el comando clear en equipos UNIX o cls en M.Windows.
 	- Modularizar tareas.
-	- Mejorar salida de consulta en la opción 1.
+	- Mejorar la salida de consulta en la opción 1.
 '''
 
 import sqlite3
