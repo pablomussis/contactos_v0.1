@@ -28,15 +28,16 @@ class contacto:
 	# Función que imprime el menu a seleccionar por el usuario:		
 	def imprimir_menu(self) :
 		# Ingresamos una cadena de caracteres a la variable local menu:
-		menu = '''SELECCIONE UNA OPCIÓN: \n\n
+		menu = '''LISTA DE CONTACTOS \n
+				SELECCIONE UNA OPCIÓN: \n
 				1. CONSULTA
 				2. MODIFICACIÓN
 				3. ALTA
 				4. BAJA
 				5. SALIR \n\n'''
-		print '\n' * 2, '\t' * 4, ('=' * 50), '\n' * 2
-		print '\t' * 4, menu
-		print '\t' * 4, ('=' * 50)
+		print ('\n' * 2, '\t' * 4, ('=' * 50), '\n' * 2)
+		print ('\t' * 4, menu)
+		print ('\t' * 4, ('=' * 50))
 
 	# Función que carga y pone activa la base de datos (contacto.db) con su tabla (contactos):	
 	def cargar_base(self) : 
